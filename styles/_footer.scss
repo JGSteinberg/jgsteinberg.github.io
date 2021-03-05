@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  margin-top: 3%;
+  height: 5rem;
+
+  p {
+    text-align: center;
+    margin-bottom: 4%;
+    font-family: "IBM Plex Mono";
+    color: $text-color-darkblue;
+  }
+
+  .RS {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: $text-color-darkblue;
+    }
+  }
+}

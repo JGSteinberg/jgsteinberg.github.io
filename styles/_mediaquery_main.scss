@@ -1,0 +1,82 @@
+@media screen and (min-width: 769px) {
+  #main {
+    & .title {
+      margin-left: 10%;
+
+      & div {
+        display: inline-block;
+      }
+    }
+    & p {
+      margin-left: 10%;
+    }
+    & #conocemas {
+      max-width: 226px;
+      margin-left: 10%;
+    }
+    & #episodios {
+      max-width: 100%;
+    }
+    & #episodios .titulo {
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+    & .podcasts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10% 20%;
+      grid-template-areas:
+        ". ."
+        ". .";
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 10%;
+    }
+    & #nosotros {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      & .imagen {
+        float: left;
+      }
+    }
+    & .derecha {
+      margin-top: 30%;
+      & .titulo {
+        display: inline-block;
+        & span {
+          display: inline-block;
+        }
+      }
+    }
+    & .tituloentrevistas {
+      display: inline-block;
+      margin-left: 10%;
+      margin-bottom: 5%;
+    }
+    & .invitadas {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      & img {
+        max-width: 100%;
+      }
+    }
+    & #topicos .logos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0% 20%;
+      margin-left: 10%;
+      margin-right: 10%;
+      & p {
+        grid-row-start: row2-start;
+      }
+    }
+    & .novedades {
+      & #escucha {
+        max-width: 25%;
+      }
+    }
+  }
+}

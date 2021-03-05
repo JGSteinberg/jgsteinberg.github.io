@@ -1,0 +1,30 @@
+/*cambio del header con desktop*/
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 100%;
+  }
+  .header {
+    & .nav {
+      & .menu {
+        padding-top: 0;
+        & span {
+          display: none;
+        }
+        & ul {
+          top: 0;
+          height: 15rem;
+          background-color: transparent;
+          position: relative;
+          & li {
+            display: inline-block;
+            & a {
+              padding-top: 0;
+              display: inline-block;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
